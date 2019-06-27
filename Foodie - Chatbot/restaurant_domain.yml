@@ -1,0 +1,91 @@
+slots:
+  location:
+    type: text
+  cuisine:
+    type: text
+  budget:
+    type: text
+  email:
+    type: text 
+    
+entities:
+- location
+- cuisine
+- budget
+- email
+
+intents:
+ - greet
+ - affirm
+ - deny
+ - goodbye
+ - thankyou
+ - restaurant_search
+ - send_email
+
+templates:
+  utter_greet:
+    - "Hi there! How may I help you?"
+    - "Hi, Welcome to Foodie. How may I help you?"
+  utter_goodbye:
+    - "Thank you for contact us. Good Bye"
+    - "Have a fantastic day. Good Bye"
+    - "Good Bye"
+  utter_default:
+    - "Sorry, I didnt get you."
+  utter_ask_cuisine: 
+    - text: "What kind of cuisine would you like to have?"
+      buttons:
+      - title: "Chinese"
+        payload: "Chinese"
+      - title: "Mexican"
+        payload: "Mexican"
+      - title: "Italian"
+        payload: "Italian"
+      - title: "American"
+        payload: "American"
+      - title: "South Indian"
+        payload: "South Indian"
+      - title: "North Indian"
+        payload: "North Indian"
+  utter_ask_budget: 
+    - text: "What's the average budget for two people?"
+      buttons:
+      - title: "Lesser than Rs 300"
+        payload: "Lesser than Rs 300"
+      - title: "Rs 300 to 700"
+        payload: "Rs 300 to 700"
+      - title: "More than 700"
+        payload: "More than 700"  
+  utter_ask_howcanhelp:
+    - "How can I help you?"
+  utter_ask_about_emailing:
+    - "Should I send you details of all the restaurants on email?"
+  utter_ask_email_id:
+    - "To what email id should I send it to?"
+    - "To what email address should I send it to?"
+    - "To what email address should I send the top 10 restaurants?"
+  utter_ask_location:
+    - "In what location?"
+    - "Fantastic. In what location are you looking for restaurant?"
+  utter_top_restaurant:
+    - "Showing you top rated restaurants:"  
+
+actions:
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_ask_howcanhelp
+- utter_ask_location
+- utter_ask_cuisine
+- utter_ask_budget
+- utter_ask_email_id
+- utter_top_restaurant
+- utter_ask_about_emailing
+- actions.ActionSearchRestaurants
+- actions.ActionSendEmail
+- actions.ActionValidateCuisine
+- actions.ActionValidateLocation
+- actions.ActionValidateBudget
+- actions.ActionValidateEmail
+- actions.ActionRestarted

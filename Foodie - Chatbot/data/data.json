@@ -1,0 +1,6301 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "Chinese",
+        "synonyms": [
+          "Chinese",
+          "Chine"
+        ]
+      },
+      {
+        "value": "Mexican",
+        "synonyms": [
+          "mexican",
+          "Mexico"
+        ]
+      },
+      {
+        "value": "Italian",
+        "synonyms": [
+          "italian",
+          "Italy"
+        ]
+      },
+      {
+        "value": "American",
+        "synonyms": [
+          "american",
+          "USA"
+        ]
+      },
+      {
+        "value": "South Indian",
+        "synonyms": [
+          "South Indian",
+          "South-Indian"
+        ]
+      },
+      {
+        "value": "North Indian",
+        "synonyms": [
+          "North India",
+          "North-Indian"
+        ]
+      },
+      {
+        "value": "vegetarian",
+        "synonyms": [
+          "veggie",
+          "vegg",
+          "veg"
+        ]
+      },
+      {
+        "value": "non-vegetarian",
+        "synonyms": [
+          "nonveggie",
+          "nonveg"
+        ]
+      },
+      {
+        "value": "Lesser than Rs 300",
+        "synonyms": [
+          "<300",
+          "Less than 300"
+        ]
+      },
+      {
+        "value": "Rs 300 to 700",
+        "synonyms": [
+          "Between 300 and 700",
+          "300-700 range"
+        ]
+      },
+      {
+        "value": "More than 700",
+        "synonyms": [
+          ">700",
+          "Greater than 700"
+        ]
+      },
+      {
+        "value": "Ahmedabad",
+        "synonyms": [
+          "Amdavad",
+          "Ahmadabad"
+        ]
+      },
+      {
+        "value": "Bangalore",
+        "synonyms": [
+          "Bangalore",
+          "Bengaluru"
+        ]
+      },
+      {
+        "value": "Chennai",
+        "synonyms": [
+          "Chennai",
+          "Madras"
+        ]
+      },
+      {
+        "value": "Delhi",
+        "synonyms": [
+          "Delhi",
+          "New Delhi"
+        ]
+      },
+      {
+        "value": "Hyderabad",
+        "synonyms": [
+          "Hyderabad",
+          "Hyderabad"
+        ]
+      },
+      {
+        "value": "Kolkata",
+        "synonyms": [
+          "Kolkata",
+          "Calcutta"
+        ]
+      },
+      {
+        "value": "Mumbai",
+        "synonyms": [
+          "Mumbai",
+          "Bombay"
+        ]
+      },
+      {
+        "value": "Pune",
+        "synonyms": [
+          "Pune",
+          "Poona"
+        ]
+      },
+      {
+        "value": "Agra",
+        "synonyms": [
+          "Agra",
+          "Agra"
+        ]
+      },
+      {
+        "value": "Ajmer",
+        "synonyms": [
+          "Ajmer",
+          "Ajmer"
+        ]
+      },
+      {
+        "value": "Aligarh",
+        "synonyms": [
+          "Allygurh",
+          "Koil"
+        ]
+      },
+      {
+        "value": "Amravati",
+        "synonyms": [
+          "Amravati",
+          "Amravati"
+        ]
+      },
+      {
+        "value": "Amritsar",
+        "synonyms": [
+          "Amritsar",
+          "Ramdaspur"
+        ]
+      },
+      {
+        "value": "Asansol",
+        "synonyms": [
+          "Asansol",
+          "Asansol"
+        ]
+      },
+      {
+        "value": "Aurangabad",
+        "synonyms": [
+          "Aurangabad",
+          "Aurangabad"
+        ]
+      },
+      {
+        "value": "Bareilly",
+        "synonyms": [
+          "Bareilly",
+          "Bareilly"
+        ]
+      },
+      {
+        "value": "Belgaum",
+        "synonyms": [
+          "Belagavi",
+          "Belgavi",
+          "Venugrama"
+        ]
+      },
+      {
+        "value": "Bhavnagar",
+        "synonyms": [
+          "Bhavnagar",
+          "Bhavnagar"
+        ]
+      },
+      {
+        "value": "Bhiwandi",
+        "synonyms": [
+          "Bhiwandi",
+          "Bhiwandi"
+        ]
+      },
+      {
+        "value": "Bhopal",
+        "synonyms": [
+          "Bhopal",
+          "Bhopal"
+        ]
+      },
+      {
+        "value": "Bhubaneswar",
+        "synonyms": [
+          "Bhubaneswar",
+          "Bhubaneswar"
+        ]
+      },
+      {
+        "value": "Bikaner",
+        "synonyms": [
+          "Bikaner",
+          "Bikaner"
+        ]
+      },
+      {
+        "value": "Bokaro Steel City",
+        "synonyms": [
+          "BSC",
+          "Bokaro City"
+        ]
+      },
+      {
+        "value": "Chandigarh",
+        "synonyms": [
+          "Chandigarh",
+          "Chandigarh"
+        ]
+      },
+      {
+        "value": "Coimbatore",
+        "synonyms": [
+          "Coimbatore",
+          "Kovai"
+        ]
+      },
+      {
+        "value": "Cuttack",
+        "synonyms": [
+          "Cuttack",
+          "Cuttack"
+        ]
+      },
+      {
+        "value": "Dehradun",
+        "synonyms": [
+          "Dehra Dun",
+          "Dehra"
+        ]
+      },
+      {
+        "value": "Dhanbad",
+        "synonyms": [
+          "Dhanbad",
+          "Dhanbad"
+        ]
+      },
+      {
+        "value": "Durg-Bhilai Nagar",
+        "synonyms": [
+          "Bhilai Nagar",
+          "Bhilai"
+        ]
+      },
+      {
+        "value": "Durgapur",
+        "synonyms": [
+          "Durgapur",
+          "Durgapur"
+        ]
+      },
+      {
+        "value": "Erode",
+        "synonyms": [
+          "Erode",
+          "Erode"
+        ]
+      },
+      {
+        "value": "Faridabad",
+        "synonyms": [
+          "Faridabad",
+          "Faridabad"
+        ]
+      },
+      {
+        "value": "Firozabad",
+        "synonyms": [
+          "Firozabad",
+          "Firozabad"
+        ]
+      },
+      {
+        "value": "Ghaziabad",
+        "synonyms": [
+          "Ghaziabad",
+          "Ghaziabad"
+        ]
+      },
+      {
+        "value": "Gorakhpur",
+        "synonyms": [
+          "Gorakhpur",
+          "Gorakhpur"
+        ]
+      },
+      {
+        "value": "Gulbarga",
+        "synonyms": [
+          "Gulbarga",
+          "Kalaburagi"
+        ]
+      },
+      {
+        "value": "Guntur",
+        "synonyms": [
+          "Guntur",
+          "Guntur"
+        ]
+      },
+      {
+        "value": "Gurgaon",
+        "synonyms": [
+          "Gurgaon",
+          "Gurugram"
+        ]
+      },
+      {
+        "value": "Guwahati",
+        "synonyms": [
+          "Guwahati",
+          "Gauhati"
+        ]
+      },
+      {
+        "value": "Gwalior",
+        "synonyms": [
+          "Gwalior",
+          "Gwalior"
+        ]
+      },
+      {
+        "value": "Hubli-Dharwad",
+        "synonyms": [
+          "Hubli-Dharwad",
+          "Hubballi",
+          "Dharwad"
+        ]
+      },
+      {
+        "value": "Indore",
+        "synonyms": [
+          "Indore",
+          "Indore"
+        ]
+      },
+      {
+        "value": "Jabalpur",
+        "synonyms": [
+          "Jabalpur",
+          "Jubbulpore"
+        ]
+      },
+      {
+        "value": "Jaipur",
+        "synonyms": [
+          "Jaipur",
+          "Jaipur"
+        ]
+      },
+      {
+        "value": "Jalandhar",
+        "synonyms": [
+          "Jalandhar",
+          "Jalandhar"
+        ]
+      },
+      {
+        "value": "Jammu",
+        "synonyms": [
+          "Jammu",
+          "Jammu"
+        ]
+      },
+      {
+        "value": "Jamnagar",
+        "synonyms": [
+          "Jamnagar",
+          "Jamnagar"
+        ]
+      },
+      {
+        "value": "Jamshedpur",
+        "synonyms": [
+          "Jamshedpur",
+          "Jamshedpur"
+        ]
+      },
+      {
+        "value": "Jhansi",
+        "synonyms": [
+          "Jhansi",
+          "Jhansi"
+        ]
+      },
+      {
+        "value": "Jodhpur",
+        "synonyms": [
+          "Jodhpur",
+          "Jodhpur"
+        ]
+      },
+      {
+        "value": "Kannur",
+        "synonyms": [
+          "Kannur",
+          "Cannanore"
+        ]
+      },
+      {
+        "value": "Kanpur",
+        "synonyms": [
+          "Kanpur",
+          "Cawnpore"
+        ]
+      },
+      {
+        "value": "Kakinada",
+        "synonyms": [
+          "Kakinada",
+          "Cocanada"
+        ]
+      },
+      {
+        "value": "Kochi",
+        "synonyms": [
+          "Kochi",
+          "Cochin"
+        ]
+      },
+      {
+        "value": "Kottayam",
+        "synonyms": [
+          "Cotym",
+          "Cottayam"
+        ]
+      },
+      {
+        "value": "Kolhapur",
+        "synonyms": [
+          "Kolhapur",
+          "Kolhapur"
+        ]
+      },
+      {
+        "value": "Kollam",
+        "synonyms": [
+          "Quilon",
+          "Desinganadu"
+        ]
+      },
+      {
+        "value": "Kota",
+        "synonyms": [
+          "Kota",
+          "Kotah"
+        ]
+      },
+      {
+        "value": "Kozhikode",
+        "synonyms": [
+          "Kozhikode",
+          "Calicut"
+        ]
+      },
+      {
+        "value": "Kurnool",
+        "synonyms": [
+          "Kurnool",
+          "Kurnool"
+        ]
+      },
+      {
+        "value": "Lucknow",
+        "synonyms": [
+          "Lucknow",
+          "Lucknow"
+        ]
+      },
+      {
+        "value": "Ludhiana",
+        "synonyms": [
+          "Ludhiana",
+          "Ludhiana"
+        ]
+      },
+      {
+        "value": "Madurai",
+        "synonyms": [
+          "Madurai",
+          "Madurai"
+        ]
+      },
+      {
+        "value": "Malappuram",
+        "synonyms": [
+          "Malappuram",
+          "Malapuram"
+        ]
+      },
+      {
+        "value": "Mathura",
+        "synonyms": [
+          "Mathura",
+          "Mathura"
+        ]
+      },
+      {
+        "value": "Goa",
+        "synonyms": [
+          "Goa",
+          "Goa"
+        ]
+      },
+      {
+        "value": "Mangalore",
+        "synonyms": [
+          "Mangalore",
+          "Mangaluru"
+        ]
+      },
+      {
+        "value": "Meerut",
+        "synonyms": [
+          "Meerut",
+          "Meerut"
+        ]
+      },
+      {
+        "value": "Moradabad",
+        "synonyms": [
+          "Moradabad",
+          "Moradabad"
+        ]
+      },
+      {
+        "value": "Mysore",
+        "synonyms": [
+          "Mysore",
+          "Mysuru"
+        ]
+      },
+      {
+        "value": "Nagpur",
+        "synonyms": [
+          "Nagpur",
+          "Nagpur"
+        ]
+      },
+      {
+        "value": "Nanded",
+        "synonyms": [
+          "Nanded",
+          "Nanded"
+        ]
+      },
+      {
+        "value": "Nashik",
+        "synonyms": [
+          "Nashik",
+          "Nashik"
+        ]
+      },
+      {
+        "value": "Nellore",
+        "synonyms": [
+          "Nellore",
+          "Nellore"
+        ]
+      },
+      {
+        "value": "Noida",
+        "synonyms": [
+          "Noida",
+          "Noida"
+        ]
+      },
+      {
+        "value": "Palakkad",
+        "synonyms": [
+          "Palakkad",
+          "Palghat"
+        ]
+      },
+      {
+        "value": "Patna",
+        "synonyms": [
+          "Patna",
+          "Patna"
+        ]
+      },
+      {
+        "value": "Pondicherry",
+        "synonyms": [
+          "Pondicherry",
+          "Puducherry"
+        ]
+      },
+      {
+        "value": "Prayagraj",
+        "synonyms": [
+          "Allahabad",
+          "Illahabad",
+          "Prayag"
+        ]
+      },
+      {
+        "value": "Raipur",
+        "synonyms": [
+          "Raipur",
+          "Raipur"
+        ]
+      },
+      {
+        "value": "Rajkot",
+        "synonyms": [
+          "Rajkot",
+          "Rajkot"
+        ]
+      },
+      {
+        "value": "Rajahmundry",
+        "synonyms": [
+          "Rajahmundry",
+          "Rajahmundry"
+        ]
+      },
+      {
+        "value": "Ranchi",
+        "synonyms": [
+          "Ranchi",
+          "Ranchi"
+        ]
+      },
+      {
+        "value": "Rourkela",
+        "synonyms": [
+          "Rourkela",
+          "Rourkela"
+        ]
+      },
+      {
+        "value": "Salem",
+        "synonyms": [
+          "Salem",
+          "Salem"
+        ]
+      },
+      {
+        "value": "Sangli",
+        "synonyms": [
+          "Sangli",
+          "Sangli"
+        ]
+      },
+      {
+        "value": "Siliguri",
+        "synonyms": [
+          "Siliguri",
+          "Siliguri"
+        ]
+      },
+      {
+        "value": "Solapur",
+        "synonyms": [
+          "Solapur",
+          "Solapur"
+        ]
+      },
+      {
+        "value": "Srinagar",
+        "synonyms": [
+          "Srinagar",
+          "Srinagar"
+        ]
+      },
+      {
+        "value": "Sultanpur",
+        "synonyms": [
+          "Sultanpur",
+          "Sultanpur"
+        ]
+      },
+      {
+        "value": "Surat",
+        "synonyms": [
+          "Surat",
+          "Surat"
+        ]
+      },
+      {
+        "value": "Thiruvananthapuram",
+        "synonyms": [
+          "Thiruvananthapuram",
+          "Trivandrum"
+        ]
+      },
+      {
+        "value": "Thrissur",
+        "synonyms": [
+          "Thiru Siva Peroor",
+          "Trichur"
+        ]
+      },
+      {
+        "value": "Tiruchirappalli",
+        "synonyms": [
+          "Trichinopoly",
+          "Trichy"
+        ]
+      },
+      {
+        "value": "Tirunelveli",
+        "synonyms": [
+          "Nellai",
+          "Tinnevelly"
+        ]
+      },
+      {
+        "value": "Tiruppur",
+        "synonyms": [
+          "Tiruppur",
+          "Tirupur"
+        ]
+      },
+      {
+        "value": "Ujjain",
+        "synonyms": [
+          "Ujjain",
+          "Ujjain"
+        ]
+      },
+      {
+        "value": "Bijapur",
+        "synonyms": [
+          "Bijapur",
+          "Vijayapura"
+        ]
+      },
+      {
+        "value": "Vadodara",
+        "synonyms": [
+          "Vadodara",
+          "Baroda"
+        ]
+      },
+      {
+        "value": "Varanasi",
+        "synonyms": [
+          "Benares",
+          "Banaras",
+          "Kashi"
+        ]
+      },
+      {
+        "value": "Vasai-Virar City",
+        "synonyms": [
+          "Vasai-Virar City",
+          "VVCMC"
+        ]
+      },
+      {
+        "value": "Vijayawada",
+        "synonyms": [
+          "Vijayawada",
+          "Vijayawada"
+        ]
+      },
+      {
+        "value": "Visakhapatnam",
+        "synonyms": [
+          "Vizag",
+          "Waltair"
+        ]
+      },
+      {
+        "value": "Warangal",
+        "synonyms": [
+          "Warangal",
+          "Warangal"
+        ]
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hola",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "dear sir/madam",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "That's Correct",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "right, thank you",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "correct",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great choice",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "sounds really good",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "farewell",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "have a good one",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants",
+        "intent": "restaurant_search",
+        "entities": []
+      },
+      {
+        "text": "Hi, I am looking for some good restaurants",
+        "intent": "restaurant_search",
+        "entities": []
+      },
+      {
+        "text": "Can you list me good restaurants",
+        "intent": "restaurant_search",
+        "entities": []
+      },
+      {
+        "text": "Can you suggest some good restaurants in Ahmedabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Ahmedabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Bangalore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Bangalore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Chennai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Chennai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Delhi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 46,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Hyderabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Hyderabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Kolkata",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Kolkata",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Mumbai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Mumbai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Pune",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 45,
+            "value": "Pune",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Agra",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 45,
+            "value": "Agra",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Ajmer",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 46,
+            "value": "Ajmer",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Aligarh",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Aligarh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Amravati",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Amravati",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Amritsar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Amritsar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Asansol",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Asansol",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Aurangabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 51,
+            "value": "Aurangabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Bareilly",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Bareilly",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Belgaum",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Belgaum",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Bhavnagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Bhavnagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Bhiwandi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Bhiwandi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Bhopal",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Bhopal",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Bhubaneswar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 52,
+            "value": "Bhubaneswar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Bikaner",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Bikaner",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Bokaro Steel City",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 58,
+            "value": "Bokaro Steel City",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Chandigarh",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 51,
+            "value": "Chandigarh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Coimbatore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 51,
+            "value": "Coimbatore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Cuttack",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Cuttack",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Dehradun",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Dehradun",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Dhanbad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Dhanbad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Durg-Bhilai Nagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 58,
+            "value": "Durg-Bhilai Nagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Durgapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Durgapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Erode",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 46,
+            "value": "Erode",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Faridabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Faridabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Firozabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Firozabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Ghaziabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Ghaziabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Gorakhpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Gorakhpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Gulbarga",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Gulbarga",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Guntur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Guntur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Gurgaon",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Gurgaon",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Guwahati",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Guwahati",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Gwalior",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Gwalior",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Hubli-Dharwad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 54,
+            "value": "Hubli-Dharwad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Indore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Indore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Jabalpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Jabalpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Jaipur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Jaipur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Jalandhar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Jalandhar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Jammu",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 46,
+            "value": "Jammu",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Jamnagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Jamnagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Jamshedpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 51,
+            "value": "Jamshedpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Jhansi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Jhansi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Jodhpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Jodhpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Kannur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Kannur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Kanpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Kanpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Kakinada",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Kakinada",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Kochi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 46,
+            "value": "Kochi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Kottayam",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Kottayam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Kolhapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Kolhapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Kollam",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Kollam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Kota",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 45,
+            "value": "Kota",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Kozhikode",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Kozhikode",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Kurnool",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Kurnool",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Lucknow",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Lucknow",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Ludhiana",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Ludhiana",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Madurai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Madurai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Malappuram",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 51,
+            "value": "Malappuram",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Mathura",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Mathura",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Goa",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 44,
+            "value": "Goa",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Mangalore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Mangalore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Meerut",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Meerut",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Moradabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Moradabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Mysore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Mysore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Nagpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Nagpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Nanded",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Nanded",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Nashik",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Nashik",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Nellore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Nellore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Noida",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 46,
+            "value": "Noida",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Palakkad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Palakkad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Patna",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 46,
+            "value": "Patna",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Pondicherry",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 52,
+            "value": "Pondicherry",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Prayagraj",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Prayagraj",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Raipur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Raipur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Rajkot",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Rajkot",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Rajahmundry",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 52,
+            "value": "Rajahmundry",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Ranchi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Ranchi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Rourkela",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Rourkela",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Salem",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 46,
+            "value": "Salem",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Sangli",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Sangli",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Siliguri",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Siliguri",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Solapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Solapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Srinagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Srinagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Sultanpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 50,
+            "value": "Sultanpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Surat",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 46,
+            "value": "Surat",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Thiruvananthapuram",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 59,
+            "value": "Thiruvananthapuram",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Thrissur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Thrissur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Tiruchirappalli",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 56,
+            "value": "Tiruchirappalli",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Tirunelveli",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 52,
+            "value": "Tirunelveli",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Tiruppur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Tiruppur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Ujjain",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 47,
+            "value": "Ujjain",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Bijapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 48,
+            "value": "Bijapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Vadodara",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Vadodara",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Varanasi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Varanasi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Vasai-Virar City",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 57,
+            "value": "Vasai-Virar City",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Vijayawada",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 51,
+            "value": "Vijayawada",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Visakhapatnam",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 54,
+            "value": "Visakhapatnam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Can you suggest some good restaurants in Warangal",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 41,
+            "end": 49,
+            "value": "Warangal",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Ahmedabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Ahmedabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Bangalore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Bangalore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Chennai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Chennai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Delhi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 58,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Hyderabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Hyderabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Kolkata",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Kolkata",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Mumbai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Mumbai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Pune",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 57,
+            "value": "Pune",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Agra",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 57,
+            "value": "Agra",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Ajmer",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 58,
+            "value": "Ajmer",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Aligarh",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Aligarh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Amravati",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Amravati",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Amritsar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Amritsar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Asansol",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Asansol",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Aurangabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 63,
+            "value": "Aurangabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Bareilly",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Bareilly",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Belgaum",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Belgaum",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Bhavnagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Bhavnagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Bhiwandi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Bhiwandi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Bhopal",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Bhopal",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Bhubaneswar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 64,
+            "value": "Bhubaneswar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Bikaner",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Bikaner",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Bokaro Steel City",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 70,
+            "value": "Bokaro Steel City",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Chandigarh",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 63,
+            "value": "Chandigarh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Coimbatore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 63,
+            "value": "Coimbatore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Cuttack",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Cuttack",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Dehradun",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Dehradun",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Dhanbad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Dhanbad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Durg-Bhilai Nagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 70,
+            "value": "Durg-Bhilai Nagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Durgapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Durgapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Erode",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 58,
+            "value": "Erode",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Faridabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Faridabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Firozabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Firozabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Ghaziabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Ghaziabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Gorakhpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Gorakhpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Gulbarga",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Gulbarga",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Guntur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Guntur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Gurgaon",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Gurgaon",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Guwahati",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Guwahati",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Gwalior",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Gwalior",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Hubli-Dharwad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 66,
+            "value": "Hubli-Dharwad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Indore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Indore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Jabalpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Jabalpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Jaipur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Jaipur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Jalandhar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Jalandhar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Jammu",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 58,
+            "value": "Jammu",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Jamnagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Jamnagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Jamshedpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 63,
+            "value": "Jamshedpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Jhansi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Jhansi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Jodhpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Jodhpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Kannur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Kannur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Kanpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Kanpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Kakinada",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Kakinada",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Kochi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 58,
+            "value": "Kochi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Kottayam",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Kottayam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Kolhapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Kolhapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Kollam",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Kollam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Kota",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 57,
+            "value": "Kota",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Kozhikode",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Kozhikode",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Kurnool",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Kurnool",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Lucknow",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Lucknow",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Ludhiana",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Ludhiana",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Madurai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Madurai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Malappuram",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 63,
+            "value": "Malappuram",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Mathura",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Mathura",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Goa",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 56,
+            "value": "Goa",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Mangalore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Mangalore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Meerut",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Meerut",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Moradabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Moradabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Mysore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Mysore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Nagpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Nagpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Nanded",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Nanded",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Nashik",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Nashik",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Nellore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Nellore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Noida",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 58,
+            "value": "Noida",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Palakkad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Palakkad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Patna",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 58,
+            "value": "Patna",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Pondicherry",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 64,
+            "value": "Pondicherry",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Prayagraj",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Prayagraj",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Raipur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Raipur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Rajkot",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Rajkot",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Rajahmundry",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 64,
+            "value": "Rajahmundry",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Ranchi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Ranchi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Rourkela",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Rourkela",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Salem",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 58,
+            "value": "Salem",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Sangli",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Sangli",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Siliguri",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Siliguri",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Solapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Solapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Srinagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Srinagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Sultanpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 62,
+            "value": "Sultanpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Surat",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 58,
+            "value": "Surat",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Thiruvananthapuram",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 71,
+            "value": "Thiruvananthapuram",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Thrissur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Thrissur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Tiruchirappalli",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 68,
+            "value": "Tiruchirappalli",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Tirunelveli",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 64,
+            "value": "Tirunelveli",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Tiruppur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Tiruppur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Ujjain",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 59,
+            "value": "Ujjain",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Bijapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 60,
+            "value": "Bijapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Vadodara",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Vadodara",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Varanasi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Varanasi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Vasai-Virar City",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 69,
+            "value": "Vasai-Virar City",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Vijayawada",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 63,
+            "value": "Vijayawada",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Visakhapatnam",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 66,
+            "value": "Visakhapatnam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I’m hungry. Looking out for some good restaurants in Warangal",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 53,
+            "end": 61,
+            "value": "Warangal",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Ahmedabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Ahmedabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Bangalore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Bangalore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Chennai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Chennai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Delhi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Hyderabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Hyderabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Kolkata",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Kolkata",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Mumbai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Mumbai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Pune",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "Pune",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Agra",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "Agra",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Ajmer",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Ajmer",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Aligarh",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Aligarh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Amravati",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Amravati",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Amritsar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Amritsar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Asansol",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Asansol",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Aurangabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "Aurangabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Bareilly",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Bareilly",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Belgaum",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Belgaum",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Bhavnagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Bhavnagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Bhiwandi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Bhiwandi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Bhopal",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Bhopal",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Bhubaneswar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "Bhubaneswar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Bikaner",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Bikaner",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Bokaro Steel City",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 20,
+            "value": "Bokaro Steel City",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Chandigarh",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "Chandigarh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Coimbatore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "Coimbatore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Cuttack",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Cuttack",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Dehradun",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Dehradun",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Dhanbad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Dhanbad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Durg-Bhilai Nagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 20,
+            "value": "Durg-Bhilai Nagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Durgapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Durgapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Erode",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Erode",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Faridabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Faridabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Firozabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Firozabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Ghaziabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Ghaziabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Gorakhpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Gorakhpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Gulbarga",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Gulbarga",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Guntur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Guntur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Gurgaon",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Gurgaon",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Guwahati",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Guwahati",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Gwalior",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Gwalior",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Hubli-Dharwad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 16,
+            "value": "Hubli-Dharwad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Indore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Indore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Jabalpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Jabalpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Jaipur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Jaipur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Jalandhar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Jalandhar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Jammu",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Jammu",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Jamnagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Jamnagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Jamshedpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "Jamshedpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Jhansi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Jhansi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Jodhpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Jodhpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Kannur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Kannur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Kanpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Kanpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Kakinada",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Kakinada",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Kochi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Kochi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Kottayam",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Kottayam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Kolhapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Kolhapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Kollam",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Kollam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Kota",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "Kota",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Kozhikode",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Kozhikode",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Kurnool",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Kurnool",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Lucknow",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Lucknow",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Ludhiana",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Ludhiana",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Madurai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Madurai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Malappuram",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "Malappuram",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Mathura",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Mathura",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Goa",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "Goa",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Mangalore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Mangalore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Meerut",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Meerut",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Moradabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Moradabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Mysore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Mysore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Nagpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Nagpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Nanded",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Nanded",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Nashik",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Nashik",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Nellore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Nellore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Noida",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Noida",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Palakkad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Palakkad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Patna",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Patna",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Pondicherry",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "Pondicherry",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Prayagraj",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Prayagraj",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Raipur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Raipur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Rajkot",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Rajkot",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Rajahmundry",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "Rajahmundry",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Ranchi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Ranchi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Rourkela",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Rourkela",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Salem",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Salem",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Sangli",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Sangli",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Siliguri",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Siliguri",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Solapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Solapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Srinagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Srinagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Sultanpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 12,
+            "value": "Sultanpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Surat",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "Surat",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Thiruvananthapuram",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 21,
+            "value": "Thiruvananthapuram",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Thrissur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Thrissur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Tiruchirappalli",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 18,
+            "value": "Tiruchirappalli",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Tirunelveli",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "Tirunelveli",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Tiruppur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Tiruppur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Ujjain",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "Ujjain",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Bijapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "Bijapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Vadodara",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Vadodara",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Varanasi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Varanasi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Vasai-Virar City",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 19,
+            "value": "Vasai-Virar City",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Vijayawada",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "Vijayawada",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Visakhapatnam",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 16,
+            "value": "Visakhapatnam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "in Warangal",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "Warangal",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Ahmedabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Ahmedabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Bangalore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Bangalore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Chennai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chennai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Delhi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Delhi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Hyderabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Hyderabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Kolkata",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Kolkata",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Mumbai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Mumbai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Pune",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Pune",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Agra",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Agra",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Ajmer",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Ajmer",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Aligarh",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Aligarh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Amravati",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Amravati",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Amritsar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Amritsar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Asansol",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Asansol",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Aurangabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Aurangabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Bareilly",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Bareilly",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Belgaum",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Belgaum",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Bhavnagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Bhavnagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Bhiwandi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Bhiwandi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Bhopal",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Bhopal",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Bhubaneswar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Bhubaneswar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Bikaner",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Bikaner",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Bokaro Steel City",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Bokaro Steel City",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Chandigarh",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Chandigarh",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Coimbatore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Coimbatore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Cuttack",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Cuttack",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Dehradun",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Dehradun",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Dhanbad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Dhanbad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Durg-Bhilai Nagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "Durg-Bhilai Nagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Durgapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Durgapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Erode",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Erode",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Faridabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Faridabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Firozabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Firozabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Ghaziabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Ghaziabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Gorakhpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Gorakhpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Gulbarga",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Gulbarga",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Guntur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Guntur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Gurgaon",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Gurgaon",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Guwahati",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Guwahati",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Gwalior",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Gwalior",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Hubli-Dharwad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Hubli-Dharwad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Indore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Indore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Jabalpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Jabalpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Jaipur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Jaipur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Jalandhar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Jalandhar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Jammu",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Jammu",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Jamnagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Jamnagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Jamshedpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Jamshedpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Jhansi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Jhansi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Jodhpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Jodhpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Kannur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Kannur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Kanpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Kanpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Kakinada",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Kakinada",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Kochi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Kochi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Kottayam",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Kottayam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Kolhapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Kolhapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Kollam",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Kollam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Kota",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Kota",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Kozhikode",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Kozhikode",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Kurnool",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Kurnool",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Lucknow",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Lucknow",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Ludhiana",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Ludhiana",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Madurai",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Madurai",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Malappuram",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Malappuram",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Mathura",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Mathura",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Goa",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Goa",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Mangalore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Mangalore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Meerut",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Meerut",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Moradabad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Moradabad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Mysore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Mysore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Nagpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Nagpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Nanded",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Nanded",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Nashik",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Nashik",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Nellore",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Nellore",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Noida",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Noida",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Palakkad",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Palakkad",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Patna",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Patna",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Pondicherry",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Pondicherry",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Prayagraj",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Prayagraj",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Raipur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Raipur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Rajkot",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Rajkot",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Rajahmundry",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Rajahmundry",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Ranchi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ranchi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Rourkela",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Rourkela",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Salem",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Salem",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Sangli",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Sangli",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Siliguri",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Siliguri",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Solapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Solapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Srinagar",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Srinagar",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Sultanpur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Sultanpur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Surat",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Surat",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Thiruvananthapuram",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Thiruvananthapuram",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Thrissur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Thrissur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Tiruchirappalli",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Tiruchirappalli",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Tirunelveli",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Tirunelveli",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Tiruppur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Tiruppur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Ujjain",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Ujjain",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Bijapur",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Bijapur",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Vadodara",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Vadodara",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Varanasi",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Varanasi",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Vasai-Virar City",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Vasai-Virar City",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Vijayawada",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Vijayawada",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Visakhapatnam",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Visakhapatnam",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Warangal",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Warangal",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "I'll prefer Mexican",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Mexican",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "I'll prefer Italian",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Italian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "I'll prefer American",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "American",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "I'll prefer South Indian",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "South Indian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "I'll prefer North Indian",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "North Indian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Mexican",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Mexican",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Italian",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Italian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "American",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "American",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "South Indian",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "South Indian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "North Indian",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "North Indian",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "Lesser than Rs 300",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Lesser than Rs 300",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "<300",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "<300",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "Less than 300",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Less than 300",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "Rs 300 to 700",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Rs 300 to 700",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "300-700 range",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "300-700 range",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "Between 300 and 700",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "Between 300 and 700",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "More than 700",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "More than 700",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": ">700",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": ">700",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "Greater than 700",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Greater than 700",
+            "entity": "budget"
+          }
+        ]
+      },
+      {
+        "text": "yes. Please send it to selvaganapathyu@outlook.com",
+        "intent": "send_email",
+        "entities": [
+          {
+            "start": 23,
+            "end": 50,
+            "value": "selvaganapathyu@outlook.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "Please send it to selvaganapathyu@outlook.com",
+        "intent": "send_email",
+        "entities": [
+          {
+            "start": 18,
+            "end": 45,
+            "value": "selvaganapathyu@outlook.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "yes. Please send it to my email selvaganapathyu@outlook.com",
+        "intent": "send_email",
+        "entities": [
+          {
+            "start": 32,
+            "end": 59,
+            "value": "selvaganapathyu@outlook.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "selvaganapathyu@outlook.com",
+        "intent": "send_email",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "selvaganapathyu@outlook.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "Chinese",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chinese",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "I'll prefer Chinese",
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Chinese",
+            "entity": "cuisine"
+          }
+        ]
+      },
+      {
+        "text": "No",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "No need",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no need",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Not needed",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "Don't send",
+        "intent": "deny",
+        "entities": []
+      }
+    ]
+  }
+}

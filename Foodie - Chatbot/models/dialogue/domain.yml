@@ -1,0 +1,112 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_ask_howcanhelp
+- utter_ask_location
+- utter_ask_cuisine
+- utter_ask_budget
+- utter_ask_email_id
+- utter_top_restaurant
+- utter_ask_about_emailing
+- action_restaurant
+- action_email
+- action_validate_cuisine
+- action_validate_location
+- action_validate_budget
+- action_validate_email
+- action_restarted
+actions:
+- utter_greet
+- utter_goodbye
+- utter_default
+- utter_ask_howcanhelp
+- utter_ask_location
+- utter_ask_cuisine
+- utter_ask_budget
+- utter_ask_email_id
+- utter_top_restaurant
+- utter_ask_about_emailing
+- actions.ActionSearchRestaurants
+- actions.ActionSendEmail
+- actions.ActionValidateCuisine
+- actions.ActionValidateLocation
+- actions.ActionValidateBudget
+- actions.ActionValidateEmail
+- actions.ActionRestarted
+config:
+  store_entities_as_slots: true
+entities:
+- location
+- cuisine
+- budget
+- email
+intents:
+- greet
+- affirm
+- deny
+- goodbye
+- thankyou
+- restaurant_search
+- send_email
+slots:
+  budget:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  cuisine:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  email:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_about_emailing:
+  - text: Should I send you details of all the restaurants on email?
+  utter_ask_budget:
+  - buttons:
+    - payload: Lesser than Rs 300
+      title: Lesser than Rs 300
+    - payload: Rs 300 to 700
+      title: Rs 300 to 700
+    - payload: More than 700
+      title: More than 700
+    text: What's the average budget for two people?
+  utter_ask_cuisine:
+  - buttons:
+    - payload: Chinese
+      title: Chinese
+    - payload: Mexican
+      title: Mexican
+    - payload: Italian
+      title: Italian
+    - payload: American
+      title: American
+    - payload: South Indian
+      title: South Indian
+    - payload: North Indian
+      title: North Indian
+    text: What kind of cuisine would you like to have?
+  utter_ask_email_id:
+  - text: To what email id should I send it to?
+  - text: To what email address should I send it to?
+  - text: To what email address should I send the top 10 restaurants?
+  utter_ask_howcanhelp:
+  - text: How can I help you?
+  utter_ask_location:
+  - text: In what location?
+  - text: Fantastic. In what location are you looking for restaurant?
+  utter_default:
+  - text: Sorry, I didnt get you.
+  utter_goodbye:
+  - text: Thank you for contact us. Good Bye
+  - text: Have a fantastic day. Good Bye
+  - text: Good Bye
+  utter_greet:
+  - text: Hi there! How may I help you?
+  - text: Hi, Welcome to Foodie. How may I help you?
+  utter_top_restaurant:
+  - text: 'Showing you top rated restaurants:'
