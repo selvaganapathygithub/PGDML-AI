@@ -73,7 +73,7 @@ class ActionSearchRestaurants(Action):
 		
 	def run(self, dispatcher, tracker, domain):
 		response=""
-		config={ "user_key":"745c5f1b6907194a76b81269f31e9046"} 
+		config={ "user_key":"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"} 
 		zomato = zomatopy.initialize_app(config)
 		loc = tracker.get_slot('location')
 		cuisine = tracker.get_slot('cuisine')
@@ -151,7 +151,7 @@ class ActionSendEmail(Action):
 		return 'action_email'		
     		
 	def run(self, dispatcher, tracker, domain):
-		config={ "user_key":"745c5f1b6907194a76b81269f31e9046"} 
+		config={ "user_key":"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"} 
 		zomato = zomatopy.initialize_app(config)
 		loc = tracker.get_slot('location')
 		cuisine = tracker.get_slot('cuisine')
